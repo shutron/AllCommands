@@ -1,7 +1,6 @@
 
 {
    "category":"dotnet",
-   "projects":{
       "release":{
          "version":"3.0",
          "command":[
@@ -17,5 +16,4 @@
             }
          ]
       }
-   }
 }

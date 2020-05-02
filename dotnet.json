@@ -2,7 +2,7 @@
    "category":"dotnet",
       "release":{
          "version":"3.0",
-         "command":[
+         "commands":[
             {
                "command":"command 1",
                "description":"test",

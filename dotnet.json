@@ -9,7 +9,12 @@
                "usage":"test"
             },
             {
-               "command":"command 1",
+               "command":"command 2",
+               "description":"test",
+               "usage":"test"
+            },
+            {
+               "command":"command 3",
                "description":"test",
                "usage":"test"
             }

@@ -31,7 +31,7 @@
             {
                "command":"git commit -m",
                "description":"Commit changes",
-               "usage":"git commit -m [commit message]"
+               "usage":"git commit -m "[commit message]""
             },
             {
                "command":"git rm -r",

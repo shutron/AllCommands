@@ -1,0 +1,43 @@
+{
+   "category":"github",
+      "release":{
+         "version":"1.0",
+         "commands":[
+            {
+               "command":"git init",
+               "description":"Initialize a local Git repository",
+               "usage":"git init"
+            },
+            {
+               "command":"git clone",
+               "description":"Create a local copy of a remote repository",
+               "usage":"git clone ssh://git@github.com/[username]/[repository-name].git"
+            },
+            {
+               "command":"git status",
+               "description":"Check status",
+               "usage":"git status"
+            },
+            {
+               "command":"git add",
+               "description":"Add a file to the staging area",
+               "usage":"git add [file-name.txt]"
+            },
+            {
+               "command":"git add -A",
+               "description":"Add all new and changed files to the staging area",
+               "usage":"git add -A"
+            },
+            {
+               "command":"git commit -m",
+               "description":"Commit changes",
+               "usage":"git commit -m [commit message]"
+            },
+            {
+               "command":"git rm -r",
+               "description":"Remove a file (or folder)",
+               "usage":"git rm -r [file-name.txt]"
+            }
+         ]
+      }
+}

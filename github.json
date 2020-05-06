@@ -37,6 +37,16 @@
                "command":"git rm -r",
                "description":"Remove a file (or folder)",
                "usage":"git rm -r [file-name.txt]"
+            },
+            {
+               "command":"git branch",
+               "description":"List branches (the asterisk denotes the current branch)",
+               "usage":"git branch"
+            },
+            {
+               "command":"git branch -a",
+               "description":"List all branches (local and remote)",
+               "usage":"git branch -a"
             }
          ]
       }

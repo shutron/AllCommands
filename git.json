@@ -45,7 +45,7 @@
                "options":[
                   {
                      "value":"-a",
-                     "description":"List all branches (local and remote)"
+                     "description":"List all branches (local and remote)",
                      "usage":"git branch -a"
 
                   }
@@ -58,7 +58,7 @@
                "options":[
                   {
                      "value":"origin",
-                     "description":"Merge into the current branch from the remote branch - RemoteBranchName"
+                     "description":"Merge into the current branch from the remote branch - RemoteBranchName",
                      "usage":"git pull origin <RemoteBranchName>"
 
                   }

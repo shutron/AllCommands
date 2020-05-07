@@ -47,6 +47,19 @@
                "command":"git branch -a",
                "description":"List all branches (local and remote)",
                "usage":"git branch -a"
+            },
+            {
+               "command":"git pull",
+               "description":"Pulls changes from a remote repository into the current branch",
+               "usage":"git pull",
+               "options":[
+                  {
+                     "value":"origin",
+                     "usage":"git pull origin <RemoteBranchName>",
+                     "desc":"Merge into the current branch from the remote branch - RemoteBranchName"
+
+                  }
+               ]
             }
          ]
       }

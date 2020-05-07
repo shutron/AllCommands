@@ -41,12 +41,15 @@
             {
                "command":"git branch",
                "description":"List branches (the asterisk denotes the current branch)",
-               "usage":"git branch"
-            },
-            {
-               "command":"git branch -a",
-               "description":"List all branches (local and remote)",
-               "usage":"git branch -a"
+               "usage":"git branch",
+               "options":[
+                  {
+                     "value":"-a",
+                     "description":"List all branches (local and remote)"
+                     "usage":"git branch -a"
+
+                  }
+               ]
             },
             {
                "command":"git pull",
@@ -55,8 +58,8 @@
                "options":[
                   {
                      "value":"origin",
-                     "usage":"git pull origin <RemoteBranchName>",
-                     "desc":"Merge into the current branch from the remote branch - RemoteBranchName"
+                     "description":"Merge into the current branch from the remote branch - RemoteBranchName"
+                     "usage":"git pull origin <RemoteBranchName>"
 
                   }
                ]

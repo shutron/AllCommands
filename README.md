@@ -35,7 +35,7 @@ If you are already fmiliar with git go ahead and do it your own way.
 That's all needed to contribute. One of the reviewer will merge it into the master and the commands will be visible in allcommands.io portal which will be used by many developers.
 
 
-# Data format
+# JSON format
 
 ```json
 {
@@ -69,3 +69,17 @@ That's all needed to contribute. One of the reviewer will merge it into the mast
       }
 }
 ```
+### JSON format Explained
+
+Key  | Description
+------------- | -------------
+category  | Content Cell
+release  | Content Cell 
+version  | Content Cell 
+commands  | Content Cell 
+command  | Content Cell 
+description  | Content Cell 
+usage  | Content Cell 
+options  | Content Cell 
+value  | Content Cell 
+usage  | Content Cell 

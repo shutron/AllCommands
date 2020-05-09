@@ -6,9 +6,14 @@
 
 # How To Contribute
 > Its extremely simple to contribute. The follwing steps is all needed to contribute. Each steps are explained in detail for beginners
-
+#### Steps
   1. Create a branch from `master` branch
   2. Add in new commands in the existing files / create new file for a new framework, tool and add in commands for that in the newly created branch
   3. Create a `pull request` to master branch
 
 That's all needed to contribute. One of the reviewer will merge it into the master and the commands will be visible in allcommands.io portal which will be used by many developers.
+
+
+## Detailed explnanation of the above steps
+
+### Step 1. Create a branch from `master` branch

@@ -33,3 +33,39 @@ If you are already fmiliar with git go ahead and do it your own way.
 + add any comments (optional) and click on `Create pull request` button
 
 That's all needed to contribute. One of the reviewer will merge it into the master and the commands will be visible in allcommands.io portal which will be used by many developers.
+
+
+# Data format
+
+```json
+{
+   "category":"powershell",
+      "release":{
+         "version":"1.0",
+         "commands":[
+            {
+               "command":"Test-Path",
+               "description":"Test-Path lets you verify whether items exist in a specified path",
+               "usage":"Test-Path <FILE PATH>"
+            },
+            {
+               "command":"Start-Sleep",
+               "description":"To suspend the activity in a script or session",
+               "usage":"Start-Sleep -Seconds <Seconds>",
+               "options":[
+                  {
+                     "value":"Seconds",
+                     "description":"sleep in seconds",
+                     "usage":"Start-Sleep -Seconds <Seconds>"
+                  },
+                  {
+                     "value":"Milliseconds ",
+                     "description":"sleep in milliseconds",
+                     "usage":"Start-Sleep -Milliseconds <Milliseconds>"
+                  }
+               ]
+            }   
+       ]
+      }
+}
+```

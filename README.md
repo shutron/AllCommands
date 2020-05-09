@@ -12,12 +12,12 @@
 
 If you are already fmiliar with git go ahead and do it your own way.
 
-#### Step 1. Create a branch from `master` branch
+### Step 1. Create a branch from `master` branch
 + Go to allcommands [repositary](https://github.com/shutron/AllCommands)  and click on branch
 + Enter any sutiable branch name of your choice and click on create branch
 + Now you can see your newly created branch 
 
-#### Step 2. Add in new commands in the existing files / create new file for a new framework, tool and add in commands for that in the newly created branch
+### Step 2. Add in new commands in the existing files / create new file for a new framework, tool and add in commands for that in the newly created branch
 + If you want to add commands for a framework/ tool which doesnt have `.json` file, 
     * Click on `Create new file`
     * Add your framework/ tool name. e.g. `powershell.json`
@@ -28,7 +28,8 @@ If you are already fmiliar with git go ahead and do it your own way.
     * Click on edit and add your new commands
     * Commit the changes
 
-#### Step 3. Create a `pull request` to master branch
-+ 
+### Step 3. Create a `pull request` to master branch
++ Select your branch and click on `New pull request` button
++ add any comments (optional) and click on `Create pull request` button
 
 That's all needed to contribute. One of the reviewer will merge it into the master and the commands will be visible in allcommands.io portal which will be used by many developers.

@@ -8,9 +8,9 @@
 
 
 # How To Contribute
-> Its extremely simple to contribute. The follwing steps is all needed to contribute. Each steps are explained in detail for beginners
+> Its extremely simple to contribute. The follwing 3 steps is all needed to contribute. Each steps are explained with pictures.
 
-If you are already fmiliar with git go ahead and do it your own way.
+If you are already familiar with git go ahead and do it your own way.
 
 ### Step 1. Create a branch from `master` branch
 + Go to allcommands [repositary](https://github.com/shutron/AllCommands)  and click on branch
@@ -83,3 +83,4 @@ usage  | Content Cell
 options  | Content Cell 
 value  | Content Cell 
 usage  | Content Cell 
+

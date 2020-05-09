@@ -4,16 +4,31 @@
   - This repo contains json file for each framework, tool, etc. which requires contribution
   - The repo for allcommands.io portal is [here](https://github.com/shutron/AllCommands.Portal). Feel free to contribute there as well 
 
+# Setup
+
+
 # How To Contribute
 > Its extremely simple to contribute. The follwing steps is all needed to contribute. Each steps are explained in detail for beginners
-#### Steps
-  1. Create a branch from `master` branch
-  2. Add in new commands in the existing files / create new file for a new framework, tool and add in commands for that in the newly created branch
-  3. Create a `pull request` to master branch
+
+If you are already fmiliar with git go ahead and do it your own way.
+
+#### Step 1. Create a branch from `master` branch
++ Go to allcommands [repositary](https://github.com/shutron/AllCommands)  and click on branch
++ Enter any sutiable branch name of your choice and click on create branch
++ Now you can see your newly created branch 
+
+#### Step 2. Add in new commands in the existing files / create new file for a new framework, tool and add in commands for that in the newly created branch
++ If you want to add commands for a framework/ tool which doesnt have `.json` file, 
+    * Click on `Create new file`
+    * Add your framework/ tool name. e.g. `powershell.json`
+    * Add in your commands. (Please find here for the file format) 
+    * Commit new file
++ If you want to add more commands to an existing file
+    * Click on the file (e.g. got.json)
+    * Click on edit and add your new commands
+    * Commit the changes
+
+#### Step 3. Create a `pull request` to master branch
++ 
 
 That's all needed to contribute. One of the reviewer will merge it into the master and the commands will be visible in allcommands.io portal which will be used by many developers.
-
-
-## Detailed explnanation of the above steps
-
-### Step 1. Create a branch from `master` branch

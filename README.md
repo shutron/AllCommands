@@ -5,7 +5,7 @@
   - The repo for allcommands.io portal is [here](https://github.com/shutron/AllCommands.Portal). Feel free to contribute there as well 
 
 # Setup
-
+> This repo contains `.json` files for each framework/ tool (e.g. dotnet.json, docker.json, etc). Each of these `.json` files contains respective commands added by valuable contributer like you. There is another repo for the web application allcommands.io which is [here](https://github.com/shutron/AllCommands.Portal). The web app will read each of these `.json` files and display. Its simple as it is.  
 
 # How To Contribute
 > Its extremely simple to contribute. The follwing 3 steps is all needed to contribute. Each steps are explained with pictures.
@@ -85,3 +85,11 @@ value  | The value of option eg. git pull origin master. Just have to put origin
 description | Describe what the option does
 usage  | Example of the command with option 
 
+
+
+### TODO
+- [ ] Login feature
+- [ ] bookmark frequently used commands
+
+### Feedback
+allcommands.io is for developers by developers. Please feel free to raise issue in github or feel free to contact us via admin@shutron.com

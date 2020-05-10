@@ -82,5 +82,6 @@ description  | Describe what the command does
 usage  | Example of the command usage 
 options  | Array of options that come with the commands 
 value  | The value of option eg. git pull origin master. Just have to put origin [branch name] 
+description | Describe what the option does
 usage  | Example of the command with option 
 

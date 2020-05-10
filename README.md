@@ -1,5 +1,5 @@
 # `allcommands.io`
-> allcommands.io is a portal for developeres who use commands frequestly n their day to day life or once in a while usage. We all forget syntax and need quick reference rather than going thru the offical pages.  
+> allcommands.io is a portal for developers who use commands frequently in their day to day life or once in a while usage. We all forget syntax and need quick reference rather than going through the offical pages.  
 
   - This repo contains json file for each framework, tool, etc. which requires contribution
   - The repo for allcommands.io portal is [here](https://github.com/shutron/AllCommands.Portal). Feel free to contribute there as well 
@@ -24,7 +24,7 @@ If you are already familiar with git go ahead and do it your own way.
     * Add in your commands. (Please find here for the file format) 
     * Commit new file
 + If you want to add more commands to an existing file
-    * Click on the file (e.g. got.json)
+    * Click on the file (e.g. git.json)
     * Click on edit and add your new commands
     * Commit the changes
 
@@ -32,7 +32,7 @@ If you are already familiar with git go ahead and do it your own way.
 + Select your branch and click on `New pull request` button
 + add any comments (optional) and click on `Create pull request` button
 
-That's all needed to contribute. One of the reviewer will merge it into the master and the commands will be visible in allcommands.io portal which will be used by many developers.
+That's all needed to contribute. One of the reviewers will merge it into the master and the commands will be visible in allcommands.io portal which will be used by many developers.
 
 
 # JSON format
@@ -73,14 +73,14 @@ That's all needed to contribute. One of the reviewer will merge it into the mast
 
 Key  | Description
 ------------- | -------------
-category  | Content Cell
-release  | Content Cell 
-version  | Content Cell 
-commands  | Content Cell 
-command  | Content Cell 
-description  | Content Cell 
-usage  | Content Cell 
-options  | Content Cell 
-value  | Content Cell 
-usage  | Content Cell 
+category  | The framework or tool (should be same as file name excl .json) 
+release  |  
+version  | Version number of document (retain it when updating or default to 1.0 when adding new) 
+commands  | 
+command  | Command name eg. git pull
+description  | Describe what the command does
+usage  | Example of the command usage 
+options  | Array of options that come with the commands 
+value  | The value of option eg. git pull origin master. Just have to put origin <branch name>
+usage  | Example of the command with option 
 

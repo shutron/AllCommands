@@ -24,7 +24,7 @@ If you are already familiar with git go ahead and do it your own way.
     * Click on `Create new file`
     ![view branch](readme-images/3.png)
     * Add your framework/ tool name. e.g. `powershell.json`
-    * Add in your commands. (Please find [here](#-JSON-format) for the file format)    
+    * Add in your commands. (Please find [here](#JSON-format) for the file format)    
     * Commit new file
     ![commit branch](readme-images/4.png)
 + If you want to add more commands to an existing file

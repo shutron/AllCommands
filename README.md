@@ -14,6 +14,7 @@ If you are already familiar with git go ahead and do it your own way.
 
 ### Step 1. Create a branch from `master` branch
 + Go to allcommands [repositary](https://github.com/shutron/AllCommands)  and click on branch
+![Image description](readme-images/step1.JPG)
 + Enter any sutiable branch name of your choice and click on create branch
 + Now you can see your newly created branch 
 

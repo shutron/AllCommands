@@ -98,4 +98,4 @@ usage  | Example of the command with option
 - [ ] bookmark frequently used commands
 
 ### Feedback
-allcommands.io is for developers by developers. Please feel free to raise issue in github or feel free to contact us via admin@shutron.com
+allcommands.io is for developers by developers. Please feel free to raise issue in github or feel free to contact us via admin@allcommands.io

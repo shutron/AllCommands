@@ -10,9 +10,14 @@
 # How To Contribute
 > Its extremely simple to contribute. The follwing 3 steps is all needed to contribute. Each steps are explained with pictures.
 
-If you are already familiar with git then you konw the drill. 
-fork -> create a new branch from master -> add/ edit your changes ->push -> create a pull request
+- If you are already familiar with git then you know the drill. 
+ -> `fork` 
+ -> `create a new branch from master`
+ -> `add/ edit your changes`
+ -> `push the branch`
+ -> `create a pull request`
 
+- For those who are new, follow the below 2 option to contribute directly via github portal. 
 
 ### Option1: If you want to add commands to an existing file
 

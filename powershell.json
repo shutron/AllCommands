@@ -1,0 +1,13 @@
+{
+   "category":"powershell",
+      "release":{
+         "version":"1.0",
+         "commands":[
+            {
+               "command":"Test-Path",
+               "description":"Test-Path lets you verify whether items exist in a specified path",
+               "usage":"Test-Path <FILE PATH>"
+            }            
+       ]
+      }
+}

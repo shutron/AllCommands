@@ -17,6 +17,11 @@
                "command":"command 3",
                "description":"test",
                "usage":"test"
+            },
+            {
+               "command":"command 4",
+               "description":"test",
+               "usage":"test"
             }
          ]
       }

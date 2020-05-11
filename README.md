@@ -21,41 +21,41 @@
 
 ### Option1: If you want to add commands to an existing file
 
-+ Go to allcommands [repositary](https://github.com/shutron/AllCommands)
-+ Click on the file you want to edit (e.g. dotnet.json)
-+ Click on `edit` icon
+1.  Go to allcommands [repositary](https://github.com/shutron/AllCommands)
+2.  Click on the file you want to edit (e.g. dotnet.json)
+3.  Click on `edit` icon
 ![edit](readme-images/5.png)
 
 
-+ Make your changes then add your comment and click on `Propose file change`
+4.  Make your changes then add your comment and click on `Propose file change`
 ![edit change](readme-images/6.png)
 
 
-+ Then click on `Create pull request` button
+5.  Then click on `Create pull request` button
 ![edit pr](readme-images/7.png)
 
 
-+ Now you will be in `Open a pull request page`, leave any comments if necessary and click on `Create pull request`
+6.  Now you will be in `Open a pull request page`, leave any comments if necessary and click on `Create pull request`
 ![edit create pr](readme-images/8.png)
 
 
 
 ### Option2: If you want to add commands to a framework/ tool which does not have an existing file 
 
-+ Go to allcommands [repositary](https://github.com/shutron/AllCommands)
-+ Click on `Create new file`
+1.  Go to allcommands [repositary](https://github.com/shutron/AllCommands)
+2.  Click on `Create new file`
 ![add](readme-images/1.png)
 
 
-+ Add a filename (e.g. powershell.json), add your commands, comment and click on `Propose new file`
+3.  Add a filename (e.g. powershell.json), add your commands, comment and click on `Propose new file`
 ![add changes](readme-images/2.png)
 
 
-+ Then click on `Create pull request` button
+4.  Then click on `Create pull request` button
 ![add pr](readme-images/3.png)
 
 
-+ Now you will be in `Open a pull request page`, leave any comments if necessary and click on `Create pull request`
+5.  Now you will be in `Open a pull request page`, leave any comments if necessary and click on `Create pull request`
 ![add create pr](readme-images/4.png)
 
 

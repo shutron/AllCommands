@@ -10,34 +10,35 @@
 # How To Contribute
 > Its extremely simple to contribute. The follwing 3 steps is all needed to contribute. Each steps are explained with pictures.
 
-If you are already familiar with git go ahead and do it your own way.
+If you are already familiar with git then you konw the drill. 
+fork -> create a new branch from master -> add/ edit your changes ->push -> create a pull request
 
-### Step 1. Create a branch from `master` branch
-+ Go to allcommands [repositary](https://github.com/shutron/AllCommands)  and click on branch
-![select branch](readme-images/step1.JPG)
-+ Enter any sutiable branch name of your choice and click on create branch
-![create branch](readme-images/2.png)
-+ Now you can see your newly created branch 
 
-### Step 2. Add in new commands in the existing files / create new file for a new framework, tool and add in commands for that in the newly created branch
-+ If you want to add commands for a framework/ tool which doesnt have `.json` file, 
-    * Click on `Create new file`
-    ![view branch](readme-images/3.png)
-    * Add your framework/ tool name. e.g. `powershell.json`
-    * Add in your commands. (Please find [here](#JSON-format) for the file format)    
-    * Commit new file
-    ![commit branch](readme-images/4.png)
-+ If you want to add more commands to an existing file
-    * Click on the file (e.g. git.json)
-    * Click on edit and add your new commands
-    * Commit the changes
+### Option1: If you want to add commands to an existing file
 
-### Step 3. Create a `pull request` to master branch
-+ Select your branch and click on `New pull request` button
-  ![create pr](readme-images/5.png)
-+ add any comments (optional) and click on `Create pull request` button
-  ![submit pr](readme-images/6.png)
-  
++ Go to allcommands [repositary](https://github.com/shutron/AllCommands)
++ Click on the file you want to edit (e.g. dotnet.json)
++ Click on `edit` icon
+![edit](readme-images/5.png)
++ Make your changes then add your comment and click on `Propose file change`
+![edit change](readme-images/6.png)
++ Then click on `Create pull request` button
+![edit pr](readme-images/7.png)
++ Now you will be in `Open a pull request page`, leave any comments if necessary and click on `Create pull request`
+![edit create pr](readme-images/8.png)
+
+### Option2: If you want to add commands to a framework/ tool which does not have an existing file 
+
++ Go to allcommands [repositary](https://github.com/shutron/AllCommands)
++ Click on `Create new file`
+![add](readme-images/1.png)
++ Add a filename (e.g. powershell.json), add your commands, comment and click on `Propose new file`
+![add changes](readme-images/2.png)
++ Then click on `Create pull request` button
+![add pr](readme-images/3.png)
++ Now you will be in `Open a pull request page`, leave any comments if necessary and click on `Create pull request`
+![add create pr](readme-images/4.png)
+
 That's all needed to contribute. One of the reviewers will merge it into the master and the commands will be visible in allcommands.io portal which will be used by many developers.
 
 

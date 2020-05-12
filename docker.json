@@ -5,14 +5,14 @@
          "version":"19.03.8",
          "commands":[
             {
-               "command":"Docker Help Command",
+               "command":"docker --help",
                "description":"Docker command with help options showing you available commands on your current docker engine.",
                "usage":"docker --help"
             },
             {
-               "command":"Docker Image Listing",
+               "command":"docker images",
                "description":"List all the all top level images, their repository and tags, and their size.",
-               "usage":"docker images || docker image ls"
+               "usage":"docker images"
             }
          ]
       }

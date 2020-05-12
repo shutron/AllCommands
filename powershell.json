@@ -7,7 +7,12 @@
                "command":"Test-Path",
                "description":"Test-Path lets you verify whether items exist in a specified path",
                "usage":"Test-Path <FILE PATH>"
-            }            
+            },
+            {
+               "command":"Select-String",
+               "description":"Select-String lets you search text inside files (regular expressions supported)",
+               "usage":"Select-String -Path <FILE PATH> <TEXT>"
+            }
        ]
       }
 }

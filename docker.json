@@ -1,1 +1,19 @@
 
+{
+   "category":"docker",
+      "release":{
+         "version":"19.03.8",
+         "commands":[
+            {
+               "command":"Docker Help Command",
+               "description":"Docker command with help options showing you available commands on your current docker engine.",
+               "usage":"docker --help"
+            },
+            {
+               "command":"Docker Image Listing",
+               "description":"List all the all top level images, their repository and tags, and their size.",
+               "usage":"docker images || docker image ls"
+            }
+         ]
+      }
+}

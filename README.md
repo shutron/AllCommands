@@ -1,8 +1,8 @@
 # `allcommands.io`
-> allcommands.io is a portal for developers who use commands frequently in their day to day life or once in a while usage. We all forget syntax and need quick reference rather than going through the offical pages.  
+> [allcommands.io](http://allcommands.io) is a portal for developers who use commands frequently in their day to day life or once in a while usage. We all forget syntax and need quick reference rather than going through the offical pages.  
 
   - This repo contains json file for each framework, tool, etc. which requires contribution
-  - The repo for allcommands.io portal is [here](https://github.com/shutron/AllCommands.Portal). Feel free to contribute there as well 
+  - The repo for [allcommands.io](http://allcommands.io) portal is [here](https://github.com/shutron/AllCommands.Portal). Feel free to contribute there as well 
 
 # Setup
 > This repo contains `.json` files for each framework/ tool (e.g. dotnet.json, docker.json, etc). Each of these `.json` files contains respective commands added by valuable contributer like you. There is another repo for the web application allcommands.io which is [here](https://github.com/shutron/AllCommands.Portal). The web app will read each of these `.json` files and display. Its simple as it is.  

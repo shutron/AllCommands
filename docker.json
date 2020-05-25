@@ -13,6 +13,26 @@
                "command":"docker images",
                "description":"List all the all top level images, their repository and tags, and their size.",
                "usage":"docker images"
+            },
+            {
+               "command":"docker ps",
+               "description":"List all running docker containers.",
+               "usage":"docker ps"
+            },
+            {
+               "command":"docker ps -a",
+               "description":"List all docker containers with both stopped and running containers using --all options",
+               "usage":"docker ps -a"
+            },
+            {
+               "command":"docker build .",
+               "description":"Build a docker image for a project based on configured Dockerfile in a directory.",
+               "usage":"docker build ."
+            },
+            {
+               "command":"docker build -t .",
+               "description":"Build a docker image for a project based on configured Dockerfile in a directory using tag such as latest,alpine, 1.0, 2.0 etc.",
+               "usage":"docker build -t YourRepo/YourImage:YourTag ."
             }
          ]
       }

@@ -1,0 +1,18 @@
+{
+   "category":"angular",
+      "release":{
+         "version":"10.0.0",
+         "commands":[
+            {
+               "command":"ng new",
+               "description":"Create angular application with out-of-the-box boilerplate",
+               "usage":"ng new YourAppName"
+            },
+            {
+               "command":"ng serve",
+               "description":"Serve angular application with hot-reload when source code changes",
+               "usage":"ng serve"
+            }
+         ]
+      }
+}
